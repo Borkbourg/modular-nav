@@ -36,7 +36,7 @@ nav li {
 
 .btn {
   color: #0074d9;
-  padding: .7em .85em .7em;
+  padding: .7em .85em;
 
 }
 
@@ -46,9 +46,21 @@ a:hover {
 }
 
 .list {
-  text-align: center
+  text-align: center;
 }
 
 .solar {
   text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .solar {
+    text-align: left;
+  }
+
+  .list {
+    text-align: right;
+  }
+
 }
